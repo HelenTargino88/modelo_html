@@ -1,0 +1,89 @@
+body{
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    background-color: rgb(131, 114, 228);
+}
+.topo{
+    padding: 5px;
+    display: flex;
+    width: 100%;
+    height: 20%;
+    background-color: rgb(165, 168, 182);
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+.menu{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(201, 184, 209);    
+}
+.menu ul{
+    padding: 0px;
+}
+.menu li{
+    width: 100px;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    padding: 0px 0px;
+}
+.menu a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    text-decoration: none;
+    color: #800;
+    background-color:rgb(219, 171, 241);
+    display: inline-block;
+    padding: 10px 0px;
+}
+.topo-banner{
+    width: 80%;    
+    height: 100%;
+}
+.banner{    
+    width: 100%;
+    height: 80%;
+    background-color: rgb(148, 113, 187);
+}
+.principal{
+    padding: 5px;
+    display: flex;
+    width: 100%;
+    height: 70%;
+    background-color: rgb(238, 161, 161);
+}
+.lateral{
+    width: 15%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.conteudo{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 85%;
+    height: 100%;
+    background-color: rgb(243, 162, 243);
+}
+.rodape{
+    padding: 5px;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(210, 221, 113);
+}
+.caixa{
+    text-align: center;    
+    width: 15%;
+    height: 20%;
+    background-color: rgb(43, 144, 226);
+    margin: 2px;
+}
